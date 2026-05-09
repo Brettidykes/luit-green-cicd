@@ -21,4 +21,4 @@ jobs:
           aws-region: us-east-1
 
       - name: Deploy website to Prod
-        run: aws s3 sync . s3://luit-green-cicd-prod/ --acl public-read --delete
+        run: aws s3 sync . s3://luit-green-cicd-production/ --acl public-read --delete
